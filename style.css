@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Ubuntu",sans-serif;
+}
+header{
+    background-color: #171E4A;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.logo{
+    max-height: 35px;
+    cursor: pointer;
+}
+.contenido{
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+}
+.contenido ul{
+    display: flex;
+    gap: 16px;
+}
+li{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 20.5px 8px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.iconos span{
+    border-radius: 100%;
+    background-color: #e9ecef;
+    padding: 6px;
+    color: #000;
+    cursor: pointer;
+}
+.iconos i{
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 960px;
+    gap: 20px;
+    margin: 20px auto;
+}
+.tarjeta{
+    background-color: #171E4A;
+    width: 200px;
+    color: #fff;
+    border-radius: 6px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .2s;
+}
+.tarjeta img{
+    width: 300px;
+  
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.info{
+    padding: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+}
+footer{
+    background-color: #2d2d2d;
+    color: #fff;
+    padding:50px 54px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+footer h2{
+    color: #6B5CFF;
+    font-size: 30px;
+}
+.riwi .texto{
+    max-width: 362px;
+    font-style: italic;
+}
+.riwi .texto span{
+    font-weight: bold;
+}
+.riwi img{
+    max-height: 90px;
+    object-fit: contain;
+}
+.contacto, .redes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.iconos-redes{
+    display: flex;
+    gap: 10px;
+}
+.iconos-redes i{
+   font-size: 30px;
+}
+li:hover {
+    border-bottom-color: #6B5CFF;
+    background-color: #6B5CFF;
+}
+.tarjeta:hover{
+   filter: brightness(80%);
+}
