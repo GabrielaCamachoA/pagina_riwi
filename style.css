@@ -29,6 +29,10 @@ nav{
     display: flex;
     gap: 16px;
 }
+ul a{
+    color: #fff;
+    text-decoration: none;
+}
 li{
     font-size: 15px;
     cursor: pointer;
@@ -78,7 +82,7 @@ li{
 .info{
     padding: 20px;
 }
-main {
+.index {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +120,9 @@ footer h2{
     display: flex;
     gap: 10px;
 }
+.iconos-redes a{
+    color: #fff;
+}
 .iconos-redes i{
    font-size: 30px;
 }
@@ -125,4 +132,7 @@ li:hover {
 }
 .tarjeta:hover{
    filter: brightness(80%);
+}
+.tarjeta-vista img{
+    width: 250px;
 }
